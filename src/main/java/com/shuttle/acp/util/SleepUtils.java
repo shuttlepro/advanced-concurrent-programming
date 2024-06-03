@@ -1,4 +1,4 @@
-package com.shuttle.acp.utils;
+package com.shuttle.acp.util;
 
 import java.util.Random;
 
