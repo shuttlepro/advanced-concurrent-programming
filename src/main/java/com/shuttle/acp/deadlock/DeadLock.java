@@ -1,6 +1,6 @@
 package com.shuttle.acp.deadlock;
 
-import com.shuttle.acp.utils.SleepUtils;
+import com.shuttle.acp.util.SleepUtils;
 import lombok.extern.slf4j.Slf4j;
 
 /**
