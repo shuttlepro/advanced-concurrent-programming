@@ -1,4 +1,4 @@
-package com.shuttle.acp.deadlock;
+package com.shuttle.acp.utils;
 
 import java.util.Random;
 
