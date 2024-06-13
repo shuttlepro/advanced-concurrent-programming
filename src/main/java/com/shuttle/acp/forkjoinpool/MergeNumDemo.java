@@ -25,7 +25,7 @@ public class MergeNumDemo {
                 throw new RuntimeException(e);
             }
         });
-        // JAVA8 提供的并行流计算比 ForkJoinPool 更快
+        // JDK8 提供的并行流计算比 ForkJoinPool 更快
         // 实测串行流在 end < 100000000 时比并行流更快
         FunctionUtils.callAndPrintTimeConsumption(() -> LongStream.rangeClosed(1, 1000000).parallel().sum()); // 26 ms
     }
